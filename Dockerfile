@@ -1,4 +1,5 @@
 FROM nginx:mainline-alpine
+LABEL maintainer="rcarrata@redhat.com"
 
 # --- Python Installation ---
 RUN apk add --no-cache python3 && \
